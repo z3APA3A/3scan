@@ -34,7 +34,7 @@ Usage: 3scan.exe ip[/srcip] portlist option webhost url [keyword] [timeout]
 	keyword - keyword to look for in requested page. If keyword not found
 	 proxy will not be reported
 	timeout - timeout in milliseconds
-example: C:\Users\v.dubrovin\Documents\GitHub\3scan\3scan.exe localhost 1080s,3128p,8080p 4v www.myserver.com /test.html
+example: 3scan.exe localhost 1080s,3128p,8080p 4v www.myserver.com /test.html
 will test all 3 ports for Socks 4, additionally 3128 and 8080 will be tested
 for HTTP proxy, 1080 for both Socks 4 and 5, tests will be verbose.
 http://www.myserver.com/test.html should exist.
